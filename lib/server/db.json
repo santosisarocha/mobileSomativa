@@ -1,0 +1,34 @@
+{
+  "usuarios": [
+    {
+      "id": "c64f",
+      "username": "isa",
+      "password": "123"
+    },
+    {
+      "id": "16a3",
+      "username": "daniel",
+      "password": "341"
+    },
+    {
+      "id": "d917",
+      "username": "senai",
+      "password": "147"
+    },
+    {
+      "id": "adb4",
+      "username": "",
+      "password": ""
+    },
+    {
+      "id": "a399",
+      "username": "",
+      "password": ""
+    },
+    {
+      "id": "e408",
+      "username": "",
+      "password": ""
+    }
+  ]
+}
