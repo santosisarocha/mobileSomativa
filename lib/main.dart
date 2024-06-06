@@ -18,12 +18,10 @@ class TelaLogin extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text("Somativa"),
-      ),
+
       backgroundColor: Colors.black, 
       body: SingleChildScrollView(
-        padding: EdgeInsets.all(20.0),
+        padding: EdgeInsets.fromLTRB(20.0, 250.0, 20.0, 20.0),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -32,6 +30,7 @@ class TelaLogin extends StatelessWidget {
               keyboardType: TextInputType.name,
               style: TextStyle(color: Colors.white), 
               decoration: InputDecoration(
+        
                 labelText: "Digite seu nome",
                 labelStyle: TextStyle(color: Colors.white), 
                 border: OutlineInputBorder(),               
@@ -58,7 +57,7 @@ class TelaLogin extends StatelessWidget {
             SizedBox(height: 20), 
             ElevatedButton(
               onPressed: () {
-                if (_user.text == "isa" && _passw.text == "1234") {
+                if (_user.text == "isa" && _passw.text == "123") {
                   print('Login correto');
                   Navigator.push(
                   context,
